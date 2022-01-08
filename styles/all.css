@@ -3011,7 +3011,7 @@ h1, h2, h3, h4,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .5;
+    opacity: .75;
     background: #21243d;
     height: 850px; }
   .hero-wrap.hero-wrap-2 {
@@ -4428,4 +4428,18 @@ textarea.form-control {
   transform: scale(1.02) translate(0px, -8px);
   transition: all 300ms ease-in-out 0s;
   box-shadow: rgb(209 209 213) 0px 5px 15px;
+}
+
+.property-type-label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type="radio"].property-type-radio {
+  display:none;   
+}
+
+input[type="radio"].property-type-radio:checked + label {
+  color: var(--primary-color);
+  font-weight: bold;
 }

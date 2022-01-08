@@ -22,15 +22,15 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <!-- <a class="navbar-brand fk-logo" href="index.html">
+            <a class="navbar-brand fk-logo mr-5" href="index.html">
                 <img src="images/fk-logo.svg" alt="fk-constructions-logo">
-            </a> -->
+            </a>
             
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="index.html" class="nav-link">Buy</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">Sell</a></li>
-                    <li class="nav-item"><a href="agent.html" class="nav-link">Rent</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Sell</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Rent</a></li>
                 </ul>
             </div>
 
@@ -41,9 +41,9 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="index.html" class="nav-link">FK Constructions</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">Architecture</a></li>
-                    <li class="nav-item"><a href="agent.html" class="nav-link">Interior Design</a></li>
-                    <li class="nav-item"><a href="services.html" class="nav-link">Construction</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Architecture</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Interior Design</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Construction</a></li>
                 </ul>
             </div>
         </div>
@@ -58,6 +58,20 @@
                         <h1 class="mb-4">Property Advisor</h1>
                         <div class="px-md-5">
                             <form action="">
+                                <div class="search-type d-flex text-light">
+                                    <div class="form-check pl-0">
+                                        <input type="radio" class="property-type-radio" id="buy" name="optradio" checked="checked" >
+                                        <label class="property-type-label" for="buy">Buy</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" class="property-type-radio" id="sell" name="optradio">
+                                        <label class="property-type-label" for="sell">Sell</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" class="property-type-radio" id="rent" name="optradio">
+                                        <label class="property-type-label" for="rent">Rent</label>
+                                    </div>
+                                </div>
                                 <div class="input-group mb-3">
                                     <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                     <div class="input-group-append">
